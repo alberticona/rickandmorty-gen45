@@ -54,7 +54,7 @@ function Search({ onSearch }) {
 					className="bg-white border border-gray-300 rounded max-w-2xl min-w-2xs py-1 px-3"
 					placeholder="Search for a location"
 				/>
-
+				{/* elemento html datalist. quiero q el input tome las sugerencias de esa lista */}
 				<datalist id="locations">
 					{locations.map((location) => (
 						// quiero q me muesrtre el nombre y me mande el id

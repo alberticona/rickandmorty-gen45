@@ -1,3 +1,5 @@
+// pueden crear asi sus componentes con funciones
+// paso la prop location donde mando toda la info q necesitas pa mostrar esos datos
 function Card ({ location }) {
   return (
     <div className='max-w-2xl min-w-80 mx-auto px-4'>

@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useApi } from '../hooks/useApi';
 
+// pueden crear asi sus componentes con funciones
+// este comopnent lo usamos por cada personaje
 function Item({ url }) {
 	// usamos el useApi aqui pa mostrar la info tbn pueden sacar el error y el loading 
 	const [resident, getResident] = useApi();
